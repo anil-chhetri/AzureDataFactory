@@ -1,0 +1,21 @@
+{
+	"name": "ds_ouptutLocation",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_inputLocation",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "output"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
