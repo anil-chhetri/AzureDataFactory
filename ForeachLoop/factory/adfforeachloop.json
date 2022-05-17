@@ -1,0 +1,9 @@
+{
+	"name": "adfforeachloop",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "78c79a6d-8c03-401c-a0ec-24a52151be4f",
+		"tenantId": "7680316a-5e9e-4cc5-a52e-9ee89ee8c404"
+	}
+}
